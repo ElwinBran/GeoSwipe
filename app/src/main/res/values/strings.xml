@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GeoSwipe</string>
+    <string name="game_query">
+        Can you guess these image locations? Swipe left for Europe, right for not in Europe</string>
 </resources>
