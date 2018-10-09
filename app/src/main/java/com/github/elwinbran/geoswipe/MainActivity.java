@@ -86,6 +86,6 @@ public class MainActivity extends AppCompatActivity {
                 text = lossText;
             }
         }
-        Toast.makeText(this, text, Toast.LENGTH_SHORT);
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
 }

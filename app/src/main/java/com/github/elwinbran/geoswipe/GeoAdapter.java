@@ -25,7 +25,7 @@ public class GeoAdapter extends RecyclerView.Adapter<GeoTriviaViewHolder>
     public GeoTriviaViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(
                 R.layout.image_view_item, viewGroup, false);
-        return new GeoTriviaViewHolder(viewGroup);
+        return new GeoTriviaViewHolder(view);
     }
 
     @Override
